@@ -1,0 +1,25 @@
+li {
+    border: 2px solid black;
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+  .holder {
+    margin: 5px;
+    width: 100%;
+   
+    span {
+      padding: 5px;
+    }
+
+    button {
+      margin: 4px;
+
+      :hover {
+        cursor:pointer;
+
+ 
+      }
+ 
+    }
+  }
+}

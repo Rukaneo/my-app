@@ -1,0 +1,25 @@
+<div>
+  <ul>
+    <li *ngFor="let user of contact">
+      <div class="holder">
+        <span> {{ user.name }} </span> <span> {{ user.email }}</span>
+        <span> {{ user.phone }}</span>
+        <button
+          name="Delete"
+          title="Delete"
+          (click)="delUser(user._id, user.name)"
+        >
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <a [routerLink]="'edit/' + user._id"
+          ><button [name]="'Edit' + user._id" title="Edit">
+            <i class="fa-solid fa-pen"></i></button
+        ></a>
+        
+          <button name="View" title="View">
+            <i class="fa-regular fa-eye"></i></button
+        >
+      </div>
+    </li>
+  </ul>
+</div>

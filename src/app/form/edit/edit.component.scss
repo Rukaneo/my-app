@@ -1,0 +1,20 @@
+div {
+    padding: 10px;
+    input {
+        padding :7px;
+        width: 250px;
+    }
+    button {
+        margin: 5px;
+        padding: 6px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    :hover {
+        background-color: rgba(0, 255, 8, 0.4);
+    }
+
+    button:active{
+        background-color: rgb(0, 255, 8);
+    }
+}

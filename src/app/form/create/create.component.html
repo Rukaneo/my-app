@@ -1,0 +1,9 @@
+<form [formGroup]="addUser">
+    <div>
+
+        <input type="text" class="form-control" formControlName="name" name="Name" placeholder="Enter your name"> <br>
+        <input type="email" class="form-control" formControlName="email" name="Email" placeholder="Enter your email"> <br>
+        <input type="number" class="form-control" formControlName="phone" name="phone" placeholder="Enter your phone number"> <br>
+        <button type="submit" class="btn"(click)="onSubmit()" > <i class="fa-solid fa-file-pen"></i></button>
+    </div>
+</form>

@@ -1,0 +1,11 @@
+<h1>Edit </h1>
+<form [formGroup]="editUser">
+    <div>
+
+        <input type="text" class="form-control" formControlName="name" name="name" placeholder="Enter your name"> <br>
+        <input type="email" class="form-control" formControlName="email" name="email" placeholder="Enter your email"> <br>
+        <input type="number" class="form-control" formControlName="phone" name="phone" placeholder="Enter your phone number"> <br>
+        <input type="text" class="form-control" formControlName="_id" name="_id">
+        <button type="button" class="btn"  (click)="onSubmit()"> <i class="fa-solid fa-folder-plus"></i></button>
+    </div>
+</form>
